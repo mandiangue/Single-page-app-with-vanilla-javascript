@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background: linear-gradient(#811414, #1d214e);
+    padding: 2rem;
+}
+h1{
+    color:#ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+button{
+    margin:1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border:none;
+    color:#ffffff;
+    padding:1rem;
+    background-color: #141313;
+
+   
+   
+   
+}
+
+.container{
+    width:60%;
+    margin: 40px auto;
+    border: 1px solid #333;
+    padding: 1rem;
+}
+.link.active{
+    background-color: #811414;
+    padding:1rem;
+    border-radius: 8px;
+    transition: 1s;
+}
+.content{
+    display: none;
+}
+.content.active{
+display: block;
+transition: 1s;
+}
+.contactForm{
+    width:70%;
+    margin: 0 auto;
+}
+form ,input, textarea{
+    width:80%;
+    margin: auto;
+    margin: .7rem;
+    padding: .5rem;
+    resize: none;
+}
+
+    
